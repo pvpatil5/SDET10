@@ -3,13 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="testng.practice.Demo">
+      <class name="testng.practice.DataProvider_Excel">
         <methods>
-          <include name="bm"/>
-          <include name="test"/>
-          <include name="am"/>
+          <include name="dataprovider"/>
         </methods>
-      </class> <!-- testng.practice.Demo -->
+      </class> <!-- testng.practice.DataProvider_Excel -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
