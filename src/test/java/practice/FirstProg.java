@@ -23,12 +23,12 @@ public class FirstProg {
 		driver.switchTo().newWindow(WindowType.WINDOW);
 		driver.get("https://www.flipkart.com/");
 
-		//		Select select = new Select(driver.findElement(By.id("searchDropdownBox")));
-		//		select.selectByValue("search-alias=stripbooks");
-		//		Thread.sleep(2000);
-		//		String s = select.getFirstSelectedOption().getText();
+				Select select = new Select(driver.findElement(By.id("searchDropdownBox")));
+				select.selectByValue("search-alias=stripbooks");
+				Thread.sleep(2000);
+				String s = select.getFirstSelectedOption().getText();
 
-		//	System.out.println(s);
+			System.out.println(s);
 	}
 
 }
